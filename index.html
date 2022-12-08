@@ -4,10 +4,22 @@
     <link rel="stylesheet" href="index.css" />
     <link
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:ital,wght@1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;400;500&family=Varela&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -23,69 +35,192 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+    <title>Skill Match Project</title>
   </head>
   <body>
-    <div class="header-box">
-      <div class="navbar">
-        <img src="images/cybermatta.png" class="logo animate__animated animate__flip" />
-        <nav>
-          <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Menu 2</a></li>
-            <li><a href="">Menu 3</a></li>
-            <li><a href="">Menu 4</a></li>
-          </ul>
-          <input type="text" placeholder="Search.." />
-        </nav>
-        <img src="images/menu.png" class="menu-icon" />
+    <!-- TOP MENU-->
+    <div class="TopMenu-cont">
+      <div class="TopMenu-logo-cont">
+        <img src="images/logo.png" alt="" class="TopMenu-logo" />
       </div>
-      <div class="container-fluid footer-box">
-        <div class="row">
-          <div class="col-3 column_one_tum">
-            <img
-              src="images/cybermatta.png"
-              class="footer-logo animate__animated animate__flip"
-            />
-            <p>Tum Mentorship Copyright @ 2022</p>
+      <div class="TopMenu-items-cont">
+        <ul class="TopMenu-items-list-cont">
+          <li class="TopMenu-item-list">HOME</li>
+          <li class="TopMenu-item-list">ABOUT US</li>
+          <li class="TopMenu-item-list">PROJECTS</li>
+          <li class="TopMenu-item-list">CONTACT</li>
+          <li class="TopMenu-item-list">MY PROFILE</li>
+        </ul>
+      </div>
+      <div class="TopMenu-right-cont">
+        <input
+          type="text"
+          placeholder="Search ..."
+          class="TopMenu-search-bar"
+        />
+        <i class="TopMenu-icons bi bi-facebook"></i>
+        <i class="TopMenu-icons bi bi-instagram"></i>
+        <i class="TopMenu-icons bi bi-telegram"></i>
+        <i class="TopMenu-icons bi bi-twitter"></i>
+      </div>
+    </div>
+    <!-- END TOP MENU-->
+
+    <!-- BODY CONTENT-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <div class="UserDet-cont animate__animated animate__fadeInUp">
+            <img src="images/user-one.jpeg" alt="" class="UserDet-img" />
+            <div class="UserDet-info-cont">
+              <span class="UserDet-category">Front-End Web Developer</span>
+              <span class="UserDet-name">Jumah Pius Tonny</span>
+              <span class="UserDet-desc"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                impedit consequuntur voluptate, aliquid tempora, expedita beatae
+                minus assumenda soluta nesciunt, accusamus voluptatem itaque
+                unde ea fuga magni tenetur sed iusto.</span
+              >
+              <span class="UserDet-join-date">27th August 2019</span>
+            </div>
           </div>
-          <div class="col-3 column_two_tum">
-            <h3>Navigation Menu</h3>
-            <ul class="column_2_list">
-              <li>
-                <a href="https://google.com">Menu 1</a>
-              </li>
-              <li>Menu 2</li>
-              <li>Menu 3</li>
-              <li>Menu 4</li>
-              <li>Menu 5</li>
-            </ul>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="UserDet-cont animate__animated animate__fadeInUp">
+            <img src="images/user-two.avif" alt="" class="UserDet-img" />
+            <div class="UserDet-info-cont">
+              <span class="UserDet-category">Front-End Web Developer</span>
+              <span class="UserDet-name">Jumah Pius Tonny</span>
+              <span class="UserDet-desc"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                impedit consequuntur voluptate, aliquid tempora, expedita beatae
+                minus assumenda soluta nesciunt, accusamus voluptatem itaque
+                unde ea fuga magni tenetur sed iusto.</span
+              >
+              <span class="UserDet-join-date">27th August 2019</span>
+            </div>
           </div>
-          <div class="col-3">
-            <h3>About Us</h3>
-            <ul class="column_3_list">
-              <li>Menu 1</li>
-              <li>Menu 2</li>
-              <li>Menu 3</li>
-              <li>Menu 4</li>
-              <li>Menu 5</li>
-            </ul>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="UserDet-cont animate__animated animate__fadeInUp">
+            <img src="images/user-three.avif" alt="" class="UserDet-img" />
+            <div class="UserDet-info-cont">
+              <span class="UserDet-category">Front-End Web Developer</span>
+              <span class="UserDet-name">Jumah Pius Tonny</span>
+              <span class="UserDet-desc"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                impedit consequuntur voluptate, aliquid tempora, expedita beatae
+                minus assumenda soluta nesciunt, accusamus voluptatem itaque
+                unde ea fuga magni tenetur sed iusto.</span
+              >
+              <span class="UserDet-join-date">27th August 2019</span>
+            </div>
           </div>
-          <div class="col-3">
-            <h3>Legal</h3>
-            <ul class="column_4_list">
-              <li>Menu 1</li>
-              <li>Menu 2</li>
-              <li>Menu 3</li>
-              <li>Menu 4</li>
-              <li>Menu 5</li>
-            </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <div class="UserDet-cont animate__animated animate__fadeInUp">
+            <img src="images/user-one.jpeg" alt="" class="UserDet-img" />
+            <div class="UserDet-info-cont">
+              <span class="UserDet-category">Front-End Web Developer</span>
+              <span class="UserDet-name">Jumah Pius Tonny</span>
+              <span class="UserDet-desc"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                impedit consequuntur voluptate, aliquid tempora, expedita beatae
+                minus assumenda soluta nesciunt, accusamus voluptatem itaque
+                unde ea fuga magni tenetur sed iusto.</span
+              >
+              <span class="UserDet-join-date">27th August 2019</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="UserDet-cont animate__animated animate__fadeInUp">
+            <img src="images/user-two.avif" alt="" class="UserDet-img" />
+            <div class="UserDet-info-cont">
+              <span class="UserDet-category">Front-End Web Developer</span>
+              <span class="UserDet-name">Jumah Pius Tonny</span>
+              <span class="UserDet-desc"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                impedit consequuntur voluptate, aliquid tempora, expedita beatae
+                minus assumenda soluta nesciunt, accusamus voluptatem itaque
+                unde ea fuga magni tenetur sed iusto.</span
+              >
+              <span class="UserDet-join-date">27th August 2019</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="UserDet-cont animate__animated animate__fadeInUp">
+            <img src="images/user-three.avif" alt="" class="UserDet-img" />
+            <div class="UserDet-info-cont">
+              <span class="UserDet-category">Front-End Web Developer</span>
+              <span class="UserDet-name">Jumah Pius Tonny</span>
+              <span class="UserDet-desc"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                impedit consequuntur voluptate, aliquid tempora, expedita beatae
+                minus assumenda soluta nesciunt, accusamus voluptatem itaque
+                unde ea fuga magni tenetur sed iusto.</span
+              >
+              <span class="UserDet-join-date">27th August 2019</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <div class="UserDet-cont animate__animated animate__fadeInUp">
+            <img src="images/user-one.jpeg" alt="" class="UserDet-img" />
+            <div class="UserDet-info-cont">
+              <span class="UserDet-category">Front-End Web Developer</span>
+              <span class="UserDet-name">Jumah Pius Tonny</span>
+              <span class="UserDet-desc"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                impedit consequuntur voluptate, aliquid tempora, expedita beatae
+                minus assumenda soluta nesciunt, accusamus voluptatem itaque
+                unde ea fuga magni tenetur sed iusto.</span
+              >
+              <span class="UserDet-join-date">27th August 2019</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="UserDet-cont animate__animated animate__fadeInUp">
+            <img src="images/user-two.avif" alt="" class="UserDet-img" />
+            <div class="UserDet-info-cont">
+              <span class="UserDet-category">Front-End Web Developer</span>
+              <span class="UserDet-name">Jumah Pius Tonny</span>
+              <span class="UserDet-desc"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                impedit consequuntur voluptate, aliquid tempora, expedita beatae
+                minus assumenda soluta nesciunt, accusamus voluptatem itaque
+                unde ea fuga magni tenetur sed iusto.</span
+              >
+              <span class="UserDet-join-date">27th August 2019</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="UserDet-cont animate__animated animate__fadeInUp">
+            <img src="images/user-three.avif" alt="" class="UserDet-img" />
+            <div class="UserDet-info-cont">
+              <span class="UserDet-category">Front-End Web Developer</span>
+              <span class="UserDet-name">Jumah Pius Tonny</span>
+              <span class="UserDet-desc"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                impedit consequuntur voluptate, aliquid tempora, expedita beatae
+                minus assumenda soluta nesciunt, accusamus voluptatem itaque
+                unde ea fuga magni tenetur sed iusto.</span
+              >
+              <span class="UserDet-join-date">27th August 2019</span>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- END BODY CONTENT-->
   </body>
 </html>
